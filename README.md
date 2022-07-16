@@ -12,3 +12,8 @@ Github:
 Rust:
 * [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
 * [beats crate](https://crates.io/crates/beats)
+
+## Applications
+
+Discord:
+* [on Github](https://github.com/search?q=internet+time+beat+discord&type=Repositories)
