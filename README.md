@@ -3,3 +3,7 @@
 A curated list of awesome Swatch Internet Time frameworks, libraries, software and resources.
 
 TODO
+
+Github:
+* [topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
+* [topic internet-time](https://github.com/topics/internet-time)
