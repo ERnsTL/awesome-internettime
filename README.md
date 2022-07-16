@@ -2,8 +2,13 @@
 
 A curated list of awesome Swatch Internet Time frameworks, libraries, software and resources.
 
-TODO
+* TODO more programming languages
+* TODO add all the operating systems
 
 Github:
 * [topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
 * [topic internet-time](https://github.com/topics/internet-time)
+
+Rust:
+* [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
+* [beats crate](https://crates.io/crates/beats)
