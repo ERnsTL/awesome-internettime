@@ -106,9 +106,10 @@ KDE:
 
 ## Programming Languages, Libraries
 
-In pretty much every language, see Github:
-* [topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
-* [topic internet-time](https://github.com/topics/internet-time)
+Project listings:
+* [Github topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
+* [Github topic internet-time](https://github.com/topics/internet-time)
+* Gitlab and Sourcehut provided 0 results
 
 Rust:
 * [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
