@@ -79,16 +79,16 @@ GNOME:
   * but it is necessary to fix it for Gnome v40+, author is not happy with performance on v40+ but it is possible
 * [date menu formatter](https://extensions.gnome.org/extension/4655/date-menu-formatter/)
   * works for Gnome v40+ but has no @time
-  * modification for @time (code snippet [from this function in clock-override extension](https://github.com/stuartlangridge/gnome-shell-clock-override/blob/c6578c3d1993cb6cba599d1191e45655a7ef76b0/formatter.js#L94)):
+  * Modification for @time with help of code snippet [from this function in clock-override extension](https://github.com/stuartlangridge/gnome-shell-clock-override/blob/c6578c3d1993cb6cba599d1191e45655a7ef76b0/formatter.js#L94), bit of a hack:
     ```
     editor ~/.local/share/gnome-shell/extensions/date-menu-formatter@marcinjakubowski.github.com/extension.js
     ```
-  * Add import on top (note that date-menu-formatter uses an other date system for the other date formats, todo):
+  * Add import and timezone at top (note that date-menu-formatter uses an other date system for the other date formats, todo):
     ```
     const GLib = imports.gi.GLib;
     let bmttz = GLib.TimeZone.new('+01');
     ```
-  * Hack in ```update()```:
+  * Add beat time display in ```update()```:
     ```
     setText(Utils.convertFromPattern(this._formatter.format(PATTERN, new Date())) + "  @" + this.formatBeatTime());
     ```
