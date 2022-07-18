@@ -2,6 +2,8 @@
 
 A curated list of awesome Swatch Internet Time libraries, software and resources.
 
+Contribute with pull requests and discussion :-)
+
 
 ## Official, Basic Info
 
@@ -12,7 +14,7 @@ A curated list of awesome Swatch Internet Time libraries, software and resources
 ## Web Clocks and Converters
 
 * [internet-ti.me](https://internet-ti.me/)
-  * great tool for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones
+  * great tool for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones, generates metadata for embedding into social media
   * [also has a converter](https://internet-ti.me/converter)
   * [source code](https://github.com/ticky/internet-ti.me) by Jessica Stokes
 * [swatchclock.com](http://www.swatchclock.com/)
