@@ -131,6 +131,9 @@ Python:
 * [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
 * [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
 
+PHP:
+* [in standard library](https://www.php.net/manual/en/function.date.php) using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
+
 C#:
 * [on Stackoverflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
 
