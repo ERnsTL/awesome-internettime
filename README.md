@@ -1,11 +1,12 @@
 # Awesome Swatch Internet Time (.beats) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome Swatch Internet Time frameworks, libraries, software and resources.
+A curated list of awesome Swatch Internet Time libraries, software and resources.
 
 
-## Official
+## Official, Basic Info
 
 * [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) with a [weird video](https://www.youtube.com/watch?v=4ROTh6gZz3Y)
+* [Wikipedia](https://en.wikipedia.org/wiki/Swatch_Internet_Time)
 
 
 ## Web Clocks and Converters
@@ -19,6 +20,7 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 * [gwil.co](http://gwil.co/internet-time/)
   * with links to some implementations
 * [CSGNetwork converter and display](http://www.csgnetwork.com/csgbmtcvt.html)
+
 
 ## Community
 
