@@ -6,8 +6,19 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 
 * [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) with a [weird video](https://www.youtube.com/watch?v=4ROTh6gZz3Y)
 
-Ebay:
-* 
+## Web Clocks and Converters
+
+* [internet-ti.me](https://internet-ti.me/)
+  * great tool for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones
+  * [source code](https://github.com/ticky/internet-ti.me) by 
+* [swatchclock.com](http://www.swatchclock.com/)
+  * [source code](https://github.com/Clidus/swatch)
+* [gwil.co](http://gwil.co/internet-time/)
+  * with links to some implementations
+
+## Original Swatch Net Time watches
+
+* search for *Swatch Originals .Beat Net Time SQN101*
 
 * TODO more programming languages
 * TODO add all the operating systems
