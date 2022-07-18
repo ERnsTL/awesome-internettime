@@ -14,8 +14,10 @@ Rust:
 * [beats crate](https://crates.io/crates/beats)
 
 Method of calculation:
-* Calculate time now in UTC +1 (where Biel is located)
+* ```now = time in UTC+1``` where Biel is located
 * ```beat_time = (now.get_hour() + (now.get_minute() / 60) + now.get_second() / 3600) * 1000 / 24;```
+* ```beat_time = now.get_millis_since_midnight() / 86400```
+* ... more?
 
 ## Applications
 
