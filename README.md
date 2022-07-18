@@ -148,6 +148,10 @@ Typescript:
 Kotlin and Android:
 * [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
 
+Perl:
+* [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) with module *IBeat*
+* [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) for parsing
+
 
 ## Method of calculation
 
