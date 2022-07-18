@@ -43,52 +43,6 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 * [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
 
 
-## Mobile
-
-* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget&hl=de&gl=US)
-* iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
-* iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
-
-
-## Programming Languages, Libraries
-
-In pretty much every language, see Github:
-* [topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
-* [topic internet-time](https://github.com/topics/internet-time)
-
-Rust:
-* [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
-* [beats crate](https://crates.io/crates/beats)
-* [gil_beats by Gil Desmarais](https://github.com/gildesmarais/gil_beats)
-  * algorithm is unefficient
-
-Go:
-* [beats by Peter Hellberg](https://github.com/peterhellberg/beats)
-
-C:
-* [beats by j0hax](https://github.com/j0hax/beats) - also with links to other C implementations
-* TODO coreutils formatter %@ ? date tool? glibc?
-
-JavaScript:
-* [beats by azappa](https://github.com/azappa/beats)
-* [Internet Time for your in-VR wristwatch](https://github.com/ticky/internet-ti.me-VR)
-
-Python:
-* [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
-* [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
-* [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
-
-C#:
-* [on Stackoverflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
-
-Elixir:
-* [beat_time by ZuraGuerra](https://github.com/ZuraGuerra/beat_time)
-
-Typescript:
-* [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
-* [use-beat-time](https://github.com/sgwilym/use-internet-time) for React apps
-
-
 ## Operating Systems
 
 * MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime)
@@ -138,6 +92,55 @@ KDE:
 * TODO Thunderbird
 * TODO Outlook
 * ...more?
+
+
+## Mobile
+
+* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget&hl=de&gl=US)
+* iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
+* iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
+
+
+## Programming Languages, Libraries
+
+In pretty much every language, see Github:
+* [topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
+* [topic internet-time](https://github.com/topics/internet-time)
+
+Rust:
+* [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
+* [beats crate](https://crates.io/crates/beats)
+* [gil_beats by Gil Desmarais](https://github.com/gildesmarais/gil_beats)
+  * algorithm is unefficient
+
+Go:
+* [beats by Peter Hellberg](https://github.com/peterhellberg/beats)
+
+C:
+* [beats by j0hax](https://github.com/j0hax/beats) - also with links to other C implementations
+* TODO coreutils formatter %@ ? date tool? glibc?
+
+JavaScript:
+* [beats by azappa](https://github.com/azappa/beats)
+* [Internet Time for your in-VR wristwatch](https://github.com/ticky/internet-ti.me-VR)
+
+Python:
+* [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
+* [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
+* [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
+
+C#:
+* [on Stackoverflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
+
+Elixir:
+* [beat_time by ZuraGuerra](https://github.com/ZuraGuerra/beat_time)
+
+Typescript:
+* [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
+* [use-beat-time](https://github.com/sgwilym/use-internet-time) for React apps
+
+Kotlin and Android:
+* [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
 
 
 ## Method of calculation
