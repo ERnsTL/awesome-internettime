@@ -70,14 +70,16 @@ Rust:
 
 ## Method of calculation
 
-* Get time ```now``` either in UTC or UTC+1 where Biel is located. Getting UTC is usually easy, then simply add ```+1``` to the hour part in the calculations.
-* using seconds as basis using multiplication (multiplication is faster than division on x86 and floating point division is faster than integer division)
-beats = ( now.get_second() + ((now.get_minute() * 60) + ((now.get_hour() + 0) * 3600)) ) / 86.4
-* using hour as basis using division:
+* Get time ```now``` either in UTC or UTC+1 where Biel is located. Re-use the timezone object since it will not change. Getting UTC is usually easy, then simply add ```+1``` to the hour part in the calculations below.
+* Method using seconds as basis using multiplication. On x86, multiplication is faster than division and floating point division is faster than integer division.
+  ```
+  beats = ( now.get_second() + ((now.get_minute() * 60) + ((now.get_hour() + 0) * 3600)) ) / 86.4
+  ```
+* Method using hour as basis using division:
   ```
   beats = (now.get_hour() + (now.get_minute() / 60) + now.get_second() / 3600) * 1000 / 24
   ```
-* using some form of "time since midnight" in UTC+1, usually in milliseconds or microseconds:
+* Method using some form of "time since midnight" in UTC+1, usually in milliseconds or microseconds. Acquiring the time since midnight is usually more expensive than the previous methods.
   ```
   beat_time = now.get_millis_since_midnight() / 86400
   ```
