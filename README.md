@@ -25,7 +25,7 @@ A curated list of awesome Swatch Internet Time libraries, software and resources
 ## Community
 
 * [on Reddit](https://www.reddit.com/r/SwatchInternetTime/)
-* could also enable Github Discussion feature here
+* [Github Discussion here on the repo](https://github.com/ERnsTL/awesome-internettime/discussions)
 
 
 ## Original Swatch Net Time watches
