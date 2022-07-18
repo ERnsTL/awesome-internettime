@@ -69,7 +69,7 @@ C:
 * [beats by j0hax](https://github.com/j0hax/beats) - also with links to other C implementations
 * TODO coreutils formatter %@ ? date tool? glibc?
 
-JavaSript:
+JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
 * [Internet Time for your in-VR wristwatch](https://github.com/ticky/internet-ti.me-VR)
 
