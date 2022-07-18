@@ -79,9 +79,14 @@ Rust:
   ```
   beats = (now.get_hour() + (now.get_minute() / 60) + now.get_second() / 3600) * 1000 / 24
   ```
-* Method using some form of "time since midnight" in UTC+1, usually in milliseconds or microseconds. Acquiring the time since midnight is usually more expensive than the previous methods.
+* Method using some form of "time since midnight" in UTC+1. For example, if this is efficient to acquire:
   ```
-  beat_time = now.get_millis_since_midnight() / 86400
+  unixutc = time(NULL);
+  # unix time is always UTC, so add 1 hour
+  unixbmt = unixutc + 3600;
+  # get seconds since midnight
+  secsincemidnight = unixbmt % 86400;
+  beats = secsincemidnight / 86.4;
   ```
 * ... more?
 
