@@ -30,10 +30,11 @@ A curated list of awesome Swatch Internet Time libraries, software and resources
 
 ## Original Swatch Net Time watches
 
+* Swatch does not sell them any more.
 * search for *Swatch Originals .Beat Net Time SQN101*
 
 
-## Watches
+## Smart Watches
 
 * Apple Watch:  [internet-beat by Jessica Stokes](https://apps.apple.com/us/app/internet-beat/id304080578)
   * https://at-watch.jessicastokes.net/ -> https://apps.apple.com/app/at-watch/id1440309007
@@ -43,6 +44,13 @@ A curated list of awesome Swatch Internet Time libraries, software and resources
 * Pebble watch:  [watch faces on Github](https://github.com/search?q=pebble+internet+time+beats)
   * getpebble.com -> fitbit.com seems to have been bought up
 * [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
+
+
+## Mobile
+
+* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget&hl=de&gl=US)
+* iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
+* iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
 
 
 ## Operating Systems
@@ -94,13 +102,6 @@ KDE:
 * TODO Thunderbird
 * TODO Outlook
 * ...more?
-
-
-## Mobile
-
-* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget&hl=de&gl=US)
-* iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
-* iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
 
 
 ## Programming Languages, Libraries
@@ -206,9 +207,3 @@ Limitations:
 * [New Earth Time](https://newearthtime.net/) based on 360 degrees per day. So un-decimal.
 * Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
 * UTC iself.
-
-
-## TODO
-
-* TODO more programming languages
-* TODO add all the operating systems
