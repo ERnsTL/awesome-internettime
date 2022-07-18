@@ -87,6 +87,7 @@ Discord:
 * [Discussion on c2wiki](https://wiki.c2.com/?InternetTime)
   * [The Myth of Internet Time by Andrew Odlyzko](http://www.dtc.umn.edu/~odlyzko/doc/internet.time.myth.txt)
 * [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) -- [what is a Fifth World country](https://fifthworld.fandom.com/)
+* [on TimeAndDate](https://www.timeanddate.com/time/internettime.html)
 
 Advantage:
 * Worldwide synchronized clocks.
