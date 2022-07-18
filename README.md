@@ -45,12 +45,6 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 * iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
 
 
-## TODO
-
-* TODO more programming languages
-* TODO add all the operating systems
-
-
 ## Programming Languages, Libraries
 
 Github:
@@ -66,6 +60,16 @@ Rust:
 
 * MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime)
 * Windows: [Beat-Time](https://github.com/optoisolated/Beat-Time)
+
+
+## Applications
+
+* [Slack Bot und slash command](https://github.com/daph/beatbot-rs)
+* Discord on [on Github](https://github.com/search?q=internet+time+beat+discord&type=Repositories)
+* [emacs](https://www.emacswiki.org/emacs/InternetTime)
+* TODO Thunderbird
+* TODO Outlook
+* ...more?
 
 
 ## Method of calculation
@@ -89,12 +93,6 @@ Rust:
   beats = secsincemidnight / 86.4;
   ```
 * ... more?
-
-
-## Applications
-
-Discord:
-* [on Github](https://github.com/search?q=internet+time+beat+discord&type=Repositories)
 
 
 ## Discussions
@@ -132,3 +130,9 @@ Limitations:
 * [New Earth Time](https://newearthtime.net/) based on 360 degrees per day. So un-decimal.
 * Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
 * UTC iself.
+
+
+## TODO
+
+* TODO more programming languages
+* TODO add all the operating systems
