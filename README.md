@@ -48,4 +48,5 @@ Limitations:
 
 Related:
 * [New Earth Time](https://newearthtime.net/) based on 360 degrees per day. So un-decimal.
-* UTC
+* Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
+* UTC iself.
