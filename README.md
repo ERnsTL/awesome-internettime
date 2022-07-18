@@ -2,6 +2,13 @@
 
 A curated list of awesome Swatch Internet Time frameworks, libraries, software and resources.
 
+## Official
+
+* [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) with a [weird video](https://www.youtube.com/watch?v=4ROTh6gZz3Y)
+
+Ebay:
+* 
+
 * TODO more programming languages
 * TODO add all the operating systems
 
