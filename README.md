@@ -20,6 +20,11 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
   * with links to some implementations
 * [CSGNetwork converter and display](http://www.csgnetwork.com/csgbmtcvt.html)
 
+## Community
+
+* [on Reddit](https://www.reddit.com/r/SwatchInternetTime/)
+* could also enable Github Discussion feature here
+
 
 ## Original Swatch Net Time watches
 
@@ -28,7 +33,7 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 
 ## Watches
 
-* Apple Watch:  [internet-beat](https://apps.apple.com/us/app/internet-beat/id304080578)
+* Apple Watch:  [internet-beat by Jessica Stokes](https://apps.apple.com/us/app/internet-beat/id304080578)
   * https://at-watch.jessicastokes.net/ -> https://apps.apple.com/app/at-watch/id1440309007
 * Android und Galaxy Watch: [by derfreimann](https://apkgk.com/com.derfreimann.watchfaces.internetTime)
     * with estimated total number of installs
@@ -47,7 +52,7 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 
 ## Programming Languages, Libraries
 
-Github:
+In pretty much every language, see Github:
 * [topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
 * [topic internet-time](https://github.com/topics/internet-time)
 
@@ -55,11 +60,53 @@ Rust:
 * [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
 * [beats crate](https://crates.io/crates/beats)
 
+C#:
+* [on Stackoverflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
+
+C:
+* [beats by j0hax](https://github.com/j0hax/beats) - also with links to other C implementations
+* TODO coreutils formatter %@ ? date tool? glibc?
+
 
 ## Operating Systems
 
 * MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime)
 * Windows: [Beat-Time](https://github.com/optoisolated/Beat-Time)
+
+GNOME:
+* [clock Override](https://extensions.gnome.org/extension/1206/clock-override/)
+  * would be best solution since it can do @ time already
+  * but it is necessary to fix it for Gnome v40+, author is not happy with performance on v40+ but it is possible
+* [date menu formatter](https://extensions.gnome.org/extension/4655/date-menu-formatter/)
+  * works for Gnome v40+ but has no @time
+  * modification for @time (code snippet [from this function in clock-override extension](https://github.com/stuartlangridge/gnome-shell-clock-override/blob/c6578c3d1993cb6cba599d1191e45655a7ef76b0/formatter.js#L94)):
+    ```
+    editor ~/.local/share/gnome-shell/extensions/date-menu-formatter@marcinjakubowski.github.com/extension.js
+    ```
+  * Add import on top (note that date-menu-formatter uses an other date system for the other date formats, todo):
+    ```
+    const GLib = imports.gi.GLib;
+    let bmttz = GLib.TimeZone.new('+01');
+    ```
+  * Hack in ```update()```:
+    ```
+    setText(Utils.convertFromPattern(this._formatter.format(PATTERN, new Date())) + "  @" + this.formatBeatTime());
+    ```
+  * Add function below:
+    ```
+    formatBeatTime() {
+        var bmtnow = GLib.DateTime.new_now(bmttz);
+        var beat_time = 0 | ( bmtnow.get_second() + ((bmtnow.get_minute() * 60) + (bmtnow.get_hour() * 3600)) ) / 86.4;
+        return ('000' + beat_time).slice(-3);
+    }
+    ```
+  * Test change without rebooting:
+    ```
+    dbus-run-session -- gnome-shell --nested --wayland
+    ```
+
+KDE:
+* TODO
 
 
 ## Applications
