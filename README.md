@@ -100,6 +100,7 @@ KDE:
 
 * [Slack Bot und slash command](https://github.com/daph/beatbot-rs) written in Rust
 * Discord on [on Github](https://github.com/search?q=internet+time+beat+discord&type=Repositories) using a Bot
+  * [another Discord Bot](https://github.com/Xe/withinbot)
 * [emacs](https://www.emacswiki.org/emacs/InternetTime)
 * TODO Thunderbird
 * TODO Outlook
