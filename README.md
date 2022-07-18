@@ -25,6 +25,28 @@ A curated list of awesome Swatch Internet Time frameworks, libraries, software a
 
 * search for *Swatch Originals .Beat Net Time SQN101*
 
+
+## Watches
+
+* Apple Watch:  [internet-beat](https://apps.apple.com/us/app/internet-beat/id304080578)
+  * https://at-watch.jessicastokes.net/ -> https://apps.apple.com/app/at-watch/id1440309007
+* Android und Galaxy Watch: [by derfreimann](https://apkgk.com/com.derfreimann.watchfaces.internetTime)
+    * with estimated total number of installs
+* [Github search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
+* Pebble watch:  [watch faces on Github](https://github.com/search?q=pebble+internet+time+beats)
+  * getpebble.com -> fitbit.com seems to have been bought up
+* [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
+
+
+## Mobile
+
+* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget&hl=de&gl=US)
+* iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
+* iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
+
+
+## TODO
+
 * TODO more programming languages
 * TODO add all the operating systems
 
@@ -38,6 +60,12 @@ Github:
 Rust:
 * [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
 * [beats crate](https://crates.io/crates/beats)
+
+
+## Operating Systems
+
+* MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime)
+* Windows: [Beat-Time](https://github.com/optoisolated/Beat-Time)
 
 
 ## Method of calculation
