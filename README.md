@@ -125,7 +125,7 @@ Go:
 
 C:
 * [beats by j0hax](https://github.com/j0hax/beats) - also with links to other C implementations
-* TODO coreutils formatter %@ ? date tool? glibc?
+* TODO coreutils formatter %@ ? date tool? glibc? -- date(1) uses ```strftime()``` from glibc.
 
 JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
