@@ -197,7 +197,9 @@ Disadvantage:
 * There is UTC.
 
 Limitations:
-* The Earth will always go around the sun.
+* The Earth will always go around the sun. Meaning, it will never be physically day or night everywhere at the sime time. There will always be two choices: 
+  1. Favoring the local day/night and roughly following the biological cycle but having to calculate for worldwide coordination or
+  1. favoring easy worldwide coordination without calculations, as in the case of Internet Time, but requiring to take care of the availability of others, which in today's networked systems is easy to do.
 
 
 ## News Articles
