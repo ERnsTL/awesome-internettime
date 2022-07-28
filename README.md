@@ -44,7 +44,7 @@ Contributions like pull requests and discussion are welcome :-)
     * with estimated total number of installs
 * [Github search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
 * Pebble watch:  [watch faces on Github](https://github.com/search?q=pebble+internet+time+beats)
-  * getpebble.com -> fitbit.com seems to have been bought up
+  * getpebble.com redirects to fitbit.com, so it seems Pebble has been bought by Fitbit
 * [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
 
 
