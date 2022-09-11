@@ -50,7 +50,7 @@ Contributions like pull requests and discussion are welcome :-)
 
 ## Mobile
 
-* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget&hl=de&gl=US)
+* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget)
 * iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
 * iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
 
