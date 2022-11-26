@@ -1,8 +1,33 @@
+<h3 align="center">Awesome Swatch Internet Time (.beats)</h3>
+<p align="center">
+  <a href="https://github.com/sindresorhus/awesome">
+    <img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+  </a>
+</p>
+
+
+
 # Awesome Swatch Internet Time (.Beats) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome Swatch Internet Time libraries, software and resources.
 
 Contributions like pull requests and discussion are welcome :-)
+
+## Contents
+
+* [Official, Basic Info](#official-basic-info)
+* [Web Clocks and Converters](#web-clocks-and-converters)
+* [Community](#community)
+* [Original Swatch net Time Watches](#original-swatch-net-ime-watches)
+* [Smart Watches](#smart-watches)
+* [Mobile](#mobile)
+* [Operating Systems](#operating-systems)
+* [Applications](#applications)
+* [Programming Languages, Libraries](#programming-languages-libraries)
+* [Method of Calculation](#method-of-calculation)
+* [Discussions](#discussions)
+* [News Articles](#news-articles)
+* [Related](#related)
 
 
 ## Official, Basic Info
@@ -30,7 +55,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [GitHub Discussion here on the repo](https://github.com/ERnsTL/awesome-internettime/discussions)
 
 
-## Original Swatch Net Time watches
+## Original Swatch Net Time Watches
 
 * Swatch does not sell them any more.
 * search for *Swatch Originals .Beat Net Time SQN101*
@@ -45,7 +70,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [GitHub search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
 * Pebble watch:  [watch faces on GitHub](https://github.com/search?q=pebble+internet+time+beats)
   * getpebble.com redirects to fitbit.com, so it seems Pebble has been bought by Fitbit
-* [in-VR clock](https://github.com/ticky/internet-ti.me-VR) - written in JavaScript.
+* [in-VR clock](https://github.com/ticky/internet-ti.me-VR) - Written in JavaScript.
 
 
 ## Mobile
