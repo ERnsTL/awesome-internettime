@@ -43,7 +43,7 @@ Contributions like pull requests and discussion are welcome :-)
 * Android und Galaxy Watch: [by derfreimann](https://apkgk.com/com.derfreimann.watchfaces.internetTime)
     * with estimated total number of installs
 * [GitHub search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
-* Pebble watch:  [watch faces on Github](https://github.com/search?q=pebble+internet+time+beats)
+* Pebble watch:  [watch faces on GitHub](https://github.com/search?q=pebble+internet+time+beats)
   * getpebble.com redirects to fitbit.com, so it seems Pebble has been bought by Fitbit
 * [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
 
@@ -136,7 +136,7 @@ Python:
 * [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
 
 PHP:
-* [in standard library](https://www.php.net/manual/en/function.date.php) using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
+* [in standard library](https://www.php.net/manual/en/function.date.php) - using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
 
 C#:
 * [on Stack Overflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
@@ -198,7 +198,7 @@ Disadvantage:
 Limitations:
 * The Earth will always go around the sun. Meaning, it will never be physically day or night everywhere at the sime time. There will always be two choices: 
   1. Favoring the local day/night and roughly following the biological cycle but having to calculate for worldwide coordination or
-  1. favoring easy worldwide coordination without calculations, as in the case of Internet Time, but requiring to take care of the availability of others, which in today's networked systems is easy to do.
+  2. favoring easy worldwide coordination without calculations, as in the case of Internet Time, but requiring to take care of the availability of others, which in today's networked systems is easy to do.
 
 
 ## News Articles
