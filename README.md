@@ -5,10 +5,6 @@
   </a>
 </p>
 
-
-
-# Awesome Swatch Internet Time (.Beats) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
 A curated list of awesome Swatch Internet Time libraries, software and resources.
 
 Contributions like pull requests and discussion are welcome :-)
