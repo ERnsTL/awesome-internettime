@@ -16,7 +16,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [internet-ti.me](https://internet-ti.me/)
   * great tool for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones, generates metadata for embedding into social media
   * [also has a converter](https://internet-ti.me/converter)
-  * [source code](https://github.com/ticky/internet-ti.me) by Jessica Stokes
+  * [source code](https://github.com/ticky/internet-ti.me) - by Jessica Stokes
 * [swatchclock.com](http://www.swatchclock.com/)
   * [source code](https://github.com/Clidus/swatch)
 * [gwil.co](http://gwil.co/internet-time/)
@@ -98,7 +98,7 @@ KDE:
 
 ## Applications
 
-* [Slack Bot und slash command](https://github.com/daph/beatbot-rs) written in Rust
+* [Slack Bot und slash command](https://github.com/daph/beatbot-rs) - written in Rust
 * Discord on [on GitHub](https://github.com/search?q=internet+time+beat+discord&type=Repositories) using a Bot
   * [another Discord Bot](https://github.com/Xe/withinbot)
 * [emacs](https://www.emacswiki.org/emacs/InternetTime)
@@ -146,14 +146,14 @@ Elixir:
 
 Typescript:
 * [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
-* [use-beat-time](https://github.com/sgwilym/use-internet-time) for React apps
+* [use-beat-time](https://github.com/sgwilym/use-internet-time) - for React apps
 
 Kotlin and Android:
 * [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
 
 Perl:
-* [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) with module *IBeat*
-* [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) for parsing
+* [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) - with module *IBeat*
+* [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) - for parsing
 
 
 ## Method of calculation
@@ -183,7 +183,7 @@ Perl:
 
 * [Discussion on c2wiki](https://wiki.c2.com/?InternetTime)
   * [The Myth of Internet Time by Andrew Odlyzko](http://www.dtc.umn.edu/~odlyzko/doc/internet.time.myth.txt)
-* [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) -- [what is a Fifth World country](https://fifthworld.fandom.com/)
+* [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) - [what is a Fifth World country](https://fifthworld.fandom.com/)
 * [on TimeAndDate](https://www.timeanddate.com/time/internettime.html)
 
 Advantage:
@@ -203,7 +203,7 @@ Limitations:
 
 ## News Articles
 
-* [ZDnet from 2000](https://www.zdnet.com/article/do-you-have-the-internet-time/), also with sales data (2M devices in first 2 years, time converter downloaded over 5 million times in first 2 years)
+* [ZDnet from 2000](https://www.zdnet.com/article/do-you-have-the-internet-time/) - also with sales data (2M devices in first 2 years, time converter downloaded over 5 million times in first 2 years)
 * [How stuff works](https://electronics.howstuffworks.com/gadgets/clocks-watches/internet-time.htm)
 * [Baltimore Sun article from 1999](http://articles.baltimoresun.com/1999-04-08/news/9904080326_1_swatch-internet-time-keeping-time)
 * [Vice 2015](https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet)
@@ -213,6 +213,6 @@ Limitations:
 
 ## Related
 
-* [New Earth Time](https://newearthtime.net/) based on 360 degrees per day. So un-decimal.
+* [New Earth Time](https://newearthtime.net/) - based on 360 degrees per day. So un-decimal.
 * Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
 * UTC iself.
