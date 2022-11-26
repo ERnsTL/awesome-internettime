@@ -7,7 +7,7 @@ Contributions like pull requests and discussion are welcome :-)
 
 ## Official, Basic Info
 
-* [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) - it has a [funny video](https://www.youtube.com/watch?v=4ROTh6gZz3Y) about an important gotcha with Internet Time: Because it is the same time everywhere does not mean that they are in the same place of their day/night cycle :-)
+* [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) - it has a [funny video](https://www.youtube.com/watch?v=4ROTh6gZz3Y) about an important gotcha with Internet Time: Because it is the same time everywhere does not mean that they are in the same place of their day/night cycle.
 * [Wikipedia](https://en.wikipedia.org/wiki/Swatch_Internet_Time)
 
 
