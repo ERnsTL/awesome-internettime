@@ -99,12 +99,11 @@ KDE:
 ## Applications
 
 * [Slack Bot und slash command](https://github.com/daph/beatbot-rs) written in Rust
-* Discord on [on Github](https://github.com/search?q=internet+time+beat+discord&type=Repositories) using a Bot
+* Discord on [on GitHub](https://github.com/search?q=internet+time+beat+discord&type=Repositories) using a Bot
   * [another Discord Bot](https://github.com/Xe/withinbot)
 * [emacs](https://www.emacswiki.org/emacs/InternetTime)
 * TODO Thunderbird
 * TODO Outlook
-* ...more?
 
 
 ## Programming Languages, Libraries
@@ -140,7 +139,7 @@ PHP:
 * [in standard library](https://www.php.net/manual/en/function.date.php) using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
 
 C#:
-* [on Stackoverflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
+* [on Stack Overflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
 
 Elixir:
 * [beat_time by ZuraGuerra](https://github.com/ZuraGuerra/beat_time)
@@ -177,7 +176,7 @@ Perl:
   secsincemidnight = unixbmt % 86400;
   beats = secsincemidnight / 86.4;
   ```
-* ... more?
+* Any more?
 
 
 ## Discussions
