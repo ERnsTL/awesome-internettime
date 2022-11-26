@@ -180,7 +180,7 @@ Perl:
 * [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) - For parsing.
 
 
-## Method of calculation
+## Method of Calculation
 
 * Get time ```now``` either in UTC or UTC+1 where Biel is located. Re-use the timezone object since it will not change. Getting UTC is usually easy, then simply add ```+1``` to the hour part in the calculations below.
 * Method using seconds as basis using multiplication. On x86, multiplication is faster than division and floating point division is faster than integer division.
