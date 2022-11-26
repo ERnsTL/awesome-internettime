@@ -1,4 +1,4 @@
-# Awesome Swatch Internet Time (.beats) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Swatch Internet Time (.Beats) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome Swatch Internet Time libraries, software and resources.
 
@@ -27,7 +27,7 @@ Contributions like pull requests and discussion are welcome :-)
 ## Community
 
 * [on Reddit](https://www.reddit.com/r/SwatchInternetTime/)
-* [Github Discussion here on the repo](https://github.com/ERnsTL/awesome-internettime/discussions)
+* [GitHub Discussion here on the repo](https://github.com/ERnsTL/awesome-internettime/discussions)
 
 
 ## Original Swatch Net Time watches
@@ -42,7 +42,7 @@ Contributions like pull requests and discussion are welcome :-)
   * https://at-watch.jessicastokes.net/ -> https://apps.apple.com/app/at-watch/id1440309007
 * Android und Galaxy Watch: [by derfreimann](https://apkgk.com/com.derfreimann.watchfaces.internetTime)
     * with estimated total number of installs
-* [Github search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
+* [GitHub search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
 * Pebble watch:  [watch faces on Github](https://github.com/search?q=pebble+internet+time+beats)
   * getpebble.com redirects to fitbit.com, so it seems Pebble has been bought by Fitbit
 * [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
@@ -110,12 +110,12 @@ KDE:
 ## Programming Languages, Libraries
 
 Project listings:
-* [Github topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
-* [Github topic internet-time](https://github.com/topics/internet-time)
+* [GitHub topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
+* [GitHub topic internet-time](https://github.com/topics/internet-time)
 * Gitlab and Sourcehut provided 0 results
 
 Rust:
-* [on Github](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
+* [on GitHub](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
 * [beats crate](https://crates.io/crates/beats)
 * [gil_beats by Gil Desmarais](https://github.com/gildesmarais/gil_beats)
   * algorithm is unefficient
