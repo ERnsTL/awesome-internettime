@@ -16,7 +16,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [internet-ti.me](https://internet-ti.me/)
   * great tool for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones, generates metadata for embedding into social media
   * [also has a converter](https://internet-ti.me/converter)
-  * [source code](https://github.com/ticky/internet-ti.me) - by Jessica Stokes.
+  * [source code](https://github.com/ticky/internet-ti.me) - By Jessica Stokes.
 * [swatchclock.com](http://www.swatchclock.com/)
   * [source code](https://github.com/Clidus/swatch)
 * [gwil.co](http://gwil.co/internet-time/)
@@ -98,7 +98,7 @@ KDE:
 
 ## Applications
 
-* [Slack Bot und slash command](https://github.com/daph/beatbot-rs) - written in Rust.
+* [Slack Bot und slash command](https://github.com/daph/beatbot-rs) - Written in Rust.
 * Discord on [on GitHub](https://github.com/search?q=internet+time+beat+discord&type=Repositories) using a Bot
   * [another Discord Bot](https://github.com/Xe/withinbot)
 * [emacs](https://www.emacswiki.org/emacs/InternetTime)
@@ -123,7 +123,7 @@ Go:
 * [beats by Peter Hellberg](https://github.com/peterhellberg/beats)
 
 C:
-* [beats by j0hax](https://github.com/j0hax/beats) - also with links to other C implementations.
+* [beats by j0hax](https://github.com/j0hax/beats) - Also with links to other C implementations.
 * TODO coreutils formatter %@ ? date tool? glibc? -- [date(1) uses ```fprintftime()```](http://www.maizure.org/projects/decoded-gnu-coreutils/date.html) and this again uses ```strftime()``` from glibc.
 
 JavaScript:
@@ -146,14 +146,14 @@ Elixir:
 
 Typescript:
 * [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
-* [use-beat-time](https://github.com/sgwilym/use-internet-time) - for React apps.
+* [use-beat-time](https://github.com/sgwilym/use-internet-time) - For React apps.
 
 Kotlin and Android:
 * [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
 
 Perl:
-* [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) - with module *IBeat*
-* [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) - for parsing.
+* [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) - With module *IBeat*.
+* [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) - For parsing.
 
 
 ## Method of calculation
@@ -203,7 +203,7 @@ Limitations:
 
 ## News Articles
 
-* [ZDnet from 2000](https://www.zdnet.com/article/do-you-have-the-internet-time/) - also with sales data (2M devices in first 2 years, time converter downloaded over 5 million times in first 2 years).
+* [ZDnet from 2000](https://www.zdnet.com/article/do-you-have-the-internet-time/) - Also with sales data (2M devices in first 2 years, time converter downloaded over 5 million times in first 2 years).
 * [How stuff works](https://electronics.howstuffworks.com/gadgets/clocks-watches/internet-time.htm)
 * [Baltimore Sun article from 1999](http://articles.baltimoresun.com/1999-04-08/news/9904080326_1_swatch-internet-time-keeping-time)
 * [Vice 2015](https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet)
