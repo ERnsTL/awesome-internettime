@@ -45,7 +45,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [GitHub search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
 * Pebble watch:  [watch faces on GitHub](https://github.com/search?q=pebble+internet+time+beats)
   * getpebble.com redirects to fitbit.com, so it seems Pebble has been bought by Fitbit
-* [in-VR clock](https://github.com/ticky/internet-ti.me-VR)
+* [in-VR clock](https://github.com/ticky/internet-ti.me-VR) - written in JavaScript.
 
 
 ## Mobile
@@ -128,7 +128,6 @@ C:
 
 JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
-* [Internet Time for your in-VR wristwatch](https://github.com/ticky/internet-ti.me-VR)
 
 Python:
 * [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
