@@ -107,6 +107,7 @@ GNOME:
     ```
     dbus-run-session -- gnome-shell --nested --wayland
     ```
+  * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were).
 
 KDE:
 * TODO
