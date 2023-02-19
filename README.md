@@ -201,7 +201,7 @@ Perl:
   * [The Myth of Internet Time by Andrew Odlyzko](http://www.dtc.umn.edu/~odlyzko/doc/internet.time.myth.txt)
 * [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) - [what is a Fifth World country](https://fifthworld.fandom.com/)
 * [on TimeAndDate](https://www.timeanddate.com/time/internettime.html)
-* [by Sandra](https://portal.mozz.us/gemini/idiomdrottning.org/beat-time) - [via Gemini](gemini://idiomdrottning.org/beat-time)
+* [by Sandra](https://portal.mozz.us/gemini/idiomdrottning.org/beat-time) - original at gemini://idiomdrottning.org/beat-time
 
 Advantage:
 * Worldwide synchronized clocks.
