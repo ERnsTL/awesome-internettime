@@ -169,6 +169,9 @@ Typescript:
 * [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
 * [use-beat-time](https://github.com/sgwilym/use-internet-time) - For React apps.
 
+Java:
+* [Swatch-Internet-Time](https://github.com/AlexanderJonsson/Swatch-Internet-Time)
+
 Kotlin and Android:
 * [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
 
