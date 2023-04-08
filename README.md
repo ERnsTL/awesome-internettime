@@ -97,6 +97,16 @@ GNOME:
     ```
     setText(Utils.convertFromPattern(this._formatter.format(PATTERN, new Date())) + "  @" + this.formatBeatTime());
     ```
+    If you want to add UTC display as well:
+    ```
+    var now = new Date();
+    var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+    setText(
+        Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
+        "  @" + this.formatBeatTime() + 
+        "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc))
+    );
+    ```
   * Add function below:
     ```
     formatBeatTime() {
