@@ -44,6 +44,8 @@ Contributions like pull requests and discussion are welcome :-)
 
 * [on Reddit](https://www.reddit.com/r/SwatchInternetTime/)
 * [GitHub Discussion here on the repo](https://github.com/ERnsTL/awesome-internettime/discussions)
+* [Github projects with tag "swatch-internet-time"](https://github.com/topics/swatch-internet-time)
+* [Github projects with tag "internet-time"](https://github.com/topics/internet-time)
 
 
 ## Original Swatch Net Time Watches
@@ -73,7 +75,7 @@ Contributions like pull requests and discussion are welcome :-)
 
 ## Operating Systems
 
-* MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime)
+* MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime) and [dotbeat developer repository](https://github.com/amiantos/dotbeat)
 * Windows: [Beat-Time](https://github.com/optoisolated/Beat-Time)
 
 GNOME:
@@ -145,6 +147,9 @@ C:
 
 JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
+
+TypeScript:
+* [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
 
 Python:
 * [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
@@ -230,6 +235,8 @@ Limitations:
 
 ## Related
 
+* [Github projects with tag "decimal-time"](https://github.com/topics/decimal-time)
+* [Github projects with tag "metric-time"](https://github.com/topics/metric-time)
 * [New Earth Time](https://newearthtime.net/) - Based on 360 degrees per day. So un-decimal.
 * Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
 * UTC iself.
