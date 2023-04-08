@@ -137,6 +137,7 @@ Rust:
 * [beats crate](https://crates.io/crates/beats)
 * [gil_beats by Gil Desmarais](https://github.com/gildesmarais/gil_beats)
   * algorithm is unefficient
+* [daph/beats](https://github.com/daph/beats)
 
 Go:
 * [beats by Peter Hellberg](https://github.com/peterhellberg/beats)
@@ -148,13 +149,16 @@ C:
 JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
 
-TypeScript:
+TypeScript and React:
 * [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
+* [React module](https://github.com/sgwilym/use-internet-time)
+* [internet-time by JaviToro](https://github.com/JaviToro/internet-time)
 
 Python:
 * [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
 * [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
 * [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
+* [toys by 153](https://github.com/153/toys)
 
 PHP:
 * [in standard library](https://www.php.net/manual/en/function.date.php) - using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
