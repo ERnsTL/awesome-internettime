@@ -107,6 +107,18 @@ GNOME:
         "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc))
     );
     ```
+    If you want the ISO 8601 calendar week as well:
+    ```
+    var now = new Date();
+    var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
+    setText(
+        Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
+        "  @" + this.formatBeatTime() + 
+        "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc)) + 
+        "  W" + now.getWeek()
+    );
+    ```
+    ...and add function for calendar week at the top from [the source](https://stackoverflow.com/questions/9045868/javascript-date-getweek)
   * Add function below:
     ```
     formatBeatTime() {
