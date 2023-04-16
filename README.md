@@ -115,10 +115,10 @@ GNOME:
         Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
         "  @" + this.formatBeatTime() + 
         "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc)) + 
-        "  W" + now.getWeek()
+        "  W" + now.getWeekNumber()
     );
     ```
-    ...and add function for calendar week at the top from [the source](https://stackoverflow.com/questions/9045868/javascript-date-getweek)
+    ...and add function for ISO8601 calendar week at the top from [the source](https://stackoverflow.com/questions/6117814/get-week-of-year-in-javascript-like-in-php)
   * Add function below:
     ```
     formatBeatTime() {
