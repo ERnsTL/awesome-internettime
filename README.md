@@ -168,6 +168,14 @@ C:
 * [beats by j0hax](https://github.com/j0hax/beats) - Also with links to other C implementations.
 * TODO coreutils formatter %@ ? date tool? glibc? -- [date(1) uses ```fprintftime()```](http://www.maizure.org/projects/decoded-gnu-coreutils/date.html) and this again uses ```strftime()``` from glibc.
 
+Shell script:
+
+The script is so trivial, I show it here directly:
+
+```sh
+ $ printf "@$(( ( ( ( $(date "+%s") + 3600 ) % 86400 ) * 10 ) / 864 ))\n"
+```
+
 JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
 
