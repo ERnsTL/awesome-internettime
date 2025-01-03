@@ -277,3 +277,4 @@ Limitations:
 * [New Earth Time](https://newearthtime.net/) - Based on 360 degrees per day. So un-decimal.
 * Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
 * UTC iself.
+* [beatTAI](https://github.com/B4UDW3RK5/beatTAI) - instead of UTC+1 ("BMT"), uses [International Atomic Time (TAI)](https://en.wikipedia.org/wiki/International_Atomic_Time) which is UTC but monotonic, meaning without any added leap seconds. Format is ":xxx.xx" so just ":" instead of "@", which should combine nicely with ISO 8601 date format like so, "YYYY-MM-DD:xxx.xx". Has implementations in some programming languages and method of calculation for easy reference.
