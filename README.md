@@ -250,6 +250,7 @@ Perl:
 * [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) - [what is a Fifth World country](https://fifthworld.fandom.com/)
 * [on TimeAndDate](https://www.timeanddate.com/time/internettime.html)
 * [by Sandra](https://portal.mozz.us/gemini/idiomdrottning.org/beat-time) - original at gemini://idiomdrottning.org/beat-time
+* [Agora Road Forum](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950) - with some implementations and links to various implementations
 
 Advantage:
 * Worldwide synchronized clocks.
