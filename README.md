@@ -145,6 +145,12 @@ KDE:
 * [emacs](https://www.emacswiki.org/emacs/InternetTime)
 * TODO Thunderbird
 * TODO Outlook
+* Google Sheets:
+  * Set the timezone of the Sheet to UTC = "GMT +0 (no daylight savings time" in File - Properties
+  * In A1, add ```=NOW()```
+  * Somewhere else, enter ```=MOD( ( HOUR(A1) * 3600 + MINUTE(A1) * 60 + SECOND(A1)  + 3600) / 86.4, 1000)```
+  * If your language or region setting uses comma as decimal separator, the formula is ```=MOD( ( HOUR(A1) * 3600 + MINUTE(A1) * 60 + SECOND(A1)  + 3600) / 86,4; 1000)```
+  * This formula automatically adds +1 one for the UTC+1 basis of Swatch Internet Time.
 
 
 ## Programming Languages, Libraries
