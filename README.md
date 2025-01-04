@@ -242,6 +242,10 @@ Perl:
   ```
 * Any more?
 
+Interval of calculation:
+* The correct interval is every full beat or every 0.1 or 0.01 beats, depending on the displayed accuracy. This is slightly faster than 1 second update intervals, but not always possible to realize.
+* Calculating the precise beat time, but updating the display every second or every minute. This is often the easy method when doing modifications of existing clock apps or system clock displays.
+
 
 ## Discussions
 
