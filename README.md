@@ -146,6 +146,7 @@ GNOME:
 
 KDE:
 * TODO
+* Suggestion is to use *conky* desktop widgets ([link](https://www.answeroverflow.com/m/1311596991620317195)) but not sure if there is a ready-made clock showing .beats
 
 
 ## Applications
