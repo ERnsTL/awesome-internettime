@@ -30,9 +30,13 @@ Contributions like pull requests and discussion are welcome :-)
 ## Web Clocks and Converters
 
 * [internet-ti.me](https://internet-ti.me/)
-  * great tool for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones, generates metadata for embedding into social media
+  * meeting aid via URL for non-beat users: [https://internet-ti.me/@610](https://internet-ti.me/@610) -- directly shows time in local time and world time zones, generates metadata for embedding into social media
   * [also has a converter](https://internet-ti.me/converter)
   * [source code](https://github.com/ticky/internet-ti.me) - By Jessica Stokes.
+* [beats.wiki](https://beats.wiki/)
+  * clock re-calculates precisely, ie. at correct sub-second interval
+  * updates the HTML title, so you get time in browser tab title
+  * has a meeting aid via URL: [https://beats.wiki/2021-08-06@31.94]
 * [swatchclock.com](http://www.swatchclock.com/)
   * [source code](https://github.com/Clidus/swatch)
 * [gwil.co](http://gwil.co/internet-time/)
