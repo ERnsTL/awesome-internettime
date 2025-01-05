@@ -37,7 +37,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [beats.wiki](https://beats.wiki/)
   * clock re-calculates precisely, ie. at correct sub-second interval
   * updates the HTML title, so you get time in browser tab title
-  * has a meeting aid via URL: [https://beats.wiki/2021-08-06@31.94]
+  * has a meeting aid via URL: [https://beats.wiki/2021-08-06@31.94](https://beats.wiki/2021-08-06@31.94)
 * [swatchclock.com](http://www.swatchclock.com/)
   * [source code](https://github.com/Clidus/swatch)
 * [gwil.co](http://gwil.co/internet-time/)
