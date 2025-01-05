@@ -79,7 +79,8 @@ Physical clocks:
 
 ## Mobile
 
-* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget)
+* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget) as a handy widget for the home screen
+* Android:  [by mirk0dex](https://f-droid.org/packages/eu.mirkodi.swatchbeatclock/) as a regular app it seems
 * iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
 * iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
 
