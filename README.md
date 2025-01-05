@@ -44,6 +44,9 @@ Contributions like pull requests, issues and discussion are welcome :-)
   * with links to some implementations
 * [CSGNetwork converter and display](http://www.csgnetwork.com/csgbmtcvt.html)
 
+Userscript for patching into your webbrowser:
+* [by Punp from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120629)
+
 
 ## Community
 
@@ -87,10 +90,13 @@ Physical clocks:
 
 ## Operating Systems
 
-* MacOS: [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime) and [dotbeat developer repository](https://github.com/amiantos/dotbeat)
-* Windows: [Beat-Time](https://github.com/optoisolated/Beat-Time)
+MacOS:
+* [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime) and [dotbeat developer repository](https://github.com/amiantos/dotbeat)
 
-GNOME:
+Windows:
+* [Beat-Time](https://github.com/optoisolated/Beat-Time)
+
+Linux GNOME:
 * [clock Override](https://extensions.gnome.org/extension/1206/clock-override/)
   * would be best solution since it can do @ time already
   * but it is necessary to fix it for Gnome v40+, author is not happy with performance on v40+ but it is possible
@@ -145,12 +151,18 @@ GNOME:
     ```
   * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were).
 
-KDE:
+Linux KDE:
 * Suggestion to use *conky* desktop widgets ([link](https://www.answeroverflow.com/m/1311596991620317195)) but not sure if there is a ready-made clock showing .beats
 * The [Modern Clock](https://www.reddit.com/r/kde/comments/ugjcxo/new_clock_widget_for_kde_modern_clock/) widget seems popular, and it looks very promising to modify the source code:
   * [adding "UTC" time in addition to "Local" should be possible](https://github.com/Prayag2/kde_modernclock/blob/5c86f0f23d2646be7e9872fc5e769bdce259af92/package/contents/ui/main.qml#L41)
   * [then add calculation and display in main.qml here](https://github.com/Prayag2/kde_modernclock/blob/5c86f0f23d2646be7e9872fc5e769bdce259af92/package/contents/ui/main.qml#L58)
   * TODO add copy-paste version for easy use
+
+Linux Wayland via [Waybar](https://github.com/Alexays/Waybar) (applies to all distributions):
+* [by Fauxx from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/page-12#post-133244)
+
+DWM window manager for Linux, BSD etc.:
+* [shizoclock for dwm bar by vulonkaaz from Agora Road (see Discussion section)](https://github.com/vulonkaaz/schizoclock)
 
 
 ## Applications
@@ -167,6 +179,7 @@ KDE:
   * Somewhere else, enter ```=MOD( ( HOUR(A1) * 3600 + MINUTE(A1) * 60 + SECOND(A1)  + 3600) / 86.4, 1000)```
   * If your language or region setting uses comma as decimal separator, the formula is ```=MOD( ( HOUR(A1) * 3600 + MINUTE(A1) * 60 + SECOND(A1)  + 3600) / 86,4; 1000)```
   * This formula automatically adds +1 one for the UTC+1 basis of Swatch Internet Time.
+* [Chrome extension by Captain from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-124808)
 
 
 ## Programming Languages, Libraries
@@ -174,7 +187,7 @@ KDE:
 Project listings:
 * [GitHub topic swatch-internet-time](https://github.com/topics/swatch-internet-time)
 * [GitHub topic internet-time](https://github.com/topics/internet-time)
-* Gitlab and Sourcehut provided 0 results
+* Gitlab and Sourcehut provided 0 results as of 2024-01
 
 Rust:
 * [on GitHub](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
@@ -188,18 +201,22 @@ Go:
 
 C:
 * [beats by j0hax](https://github.com/j0hax/beats) - Also with links to other C implementations.
+* [by llillilll from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/page-7#post-120240) - usable for status bar
+* [by ShrapnelNet from Agora Road (see Discussion section)](https://github.com/shrapnelnet/beat)
+* [by ColdFusion8100 resp. Captain from Agora Road (see Discussion section)](https://github.com/ColdFusion8100/.Beat)
 * TODO coreutils formatter %@ ? date tool? glibc? -- [date(1) uses ```fprintftime()```](http://www.maizure.org/projects/decoded-gnu-coreutils/date.html) and this again uses ```strftime()``` from glibc.
 
 Shell script:
-
-The script is so trivial, I show it here directly:
-
+* The script is so trivial, I show it here directly:
 ```sh
  $ printf "@$(( ( ( ( $(date "+%s") + 3600 ) % 86400 ) * 10 ) / 864 ))\n"
 ```
+* [by Andy Kaufman from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120635)
 
 JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
+* [by waffle on Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119288)
+* [by Punp on Agora Road (see Discussion section](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120221)
 
 TypeScript and React:
 * [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
@@ -211,6 +228,7 @@ Python:
 * [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
 * [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
 * [toys by 153](https://github.com/153/toys)
+* [by Fauxx from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120657)
 
 PHP:
 * [in standard library](https://www.php.net/manual/en/function.date.php) - using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
@@ -234,6 +252,12 @@ Kotlin and Android:
 Perl:
 * [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) - With module *IBeat*.
 * [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) - For parsing.
+
+Emacs Elisp:
+* [by Ashman from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119581)
+
+GoDotScript:
+* [by HammerKoopa from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-130969)
 
 
 ## Method of Calculation
@@ -270,7 +294,7 @@ Interval of calculation:
 * [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) - [what is a Fifth World country](https://fifthworld.fandom.com/)
 * [on TimeAndDate](https://www.timeanddate.com/time/internettime.html)
 * [by Sandra](https://portal.mozz.us/gemini/idiomdrottning.org/beat-time) - original at gemini://idiomdrottning.org/beat-time
-* [Agora Road Forum](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950) - with some implementations and links to various implementations
+* [Agora Road Forum](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950) - with some implementations and links to various implementations (last update into this list on 2025-01-05)
 
 Advantage:
 * Worldwide synchronized clocks.
