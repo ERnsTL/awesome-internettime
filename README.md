@@ -9,7 +9,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [Official, Basic Info](#official-basic-info)
 * [Web Clocks and Converters](#web-clocks-and-converters)
 * [Community](#community)
-* [Original Swatch Net Time Watches](#original-swatch-net-time-watches)
+* [Physical Clocks and Watches](#physical-clocks-and-watches]
 * [Smart Watches](#smart-watches)
 * [Mobile](#mobile)
 * [Operating Systems](#operating-systems)
@@ -25,6 +25,7 @@ Contributions like pull requests and discussion are welcome :-)
 
 * [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) - it has a [funny video](https://www.youtube.com/watch?v=4ROTh6gZz3Y) about an important gotcha with Internet Time: Because it is the same time everywhere does not mean that they are in the same place of their day/night cycle.
 * [Wikipedia](https://en.wikipedia.org/wiki/Swatch_Internet_Time)
+* It seems that Charly Alberti invented the idea as iTime, sent it to Swatch as a business proposal and they made Beat out of it a month later. ([Newspaper article](https://hackaday.io/project/193777-the-curious-case-of-swatch-internet-time), [Alberti commenting on it](https://hackaday.com/2023/11/27/swatch-internet-time-watch-doesnt-miss-a-beat/) ([source code](https://github.com/ronibandini/XiaoRoundInternetHour))
 
 
 ## Web Clocks and Converters
@@ -52,10 +53,16 @@ Contributions like pull requests and discussion are welcome :-)
 * [Github projects with tag "internet-time"](https://github.com/topics/internet-time)
 
 
-## Original Swatch Net Time Watches
+## Physical Clocks and Watches
+
+The Original Swatch Net Time Watches:
 
 * Swatch does not sell them any more.
 * search for *Swatch Originals .Beat Net Time SQN101*
+
+Physical clocks:
+
+* [Round self-made clock by Roni Bandini, reported on Hackaday, with comments from Charly Alberti](https://hackaday.com/2023/11/27/swatch-internet-time-watch-doesnt-miss-a-beat/) ([source code](https://github.com/ronibandini/XiaoRoundInternetHour), [project details, with newspaper article about Charly Alberti's iTime](https://hackaday.io/project/193777-the-curious-case-of-swatch-internet-time))
 
 
 ## Smart Watches
