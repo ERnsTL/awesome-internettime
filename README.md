@@ -146,8 +146,11 @@ GNOME:
   * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were).
 
 KDE:
-* TODO
-* Suggestion is to use *conky* desktop widgets ([link](https://www.answeroverflow.com/m/1311596991620317195)) but not sure if there is a ready-made clock showing .beats
+* Suggestion to use *conky* desktop widgets ([link](https://www.answeroverflow.com/m/1311596991620317195)) but not sure if there is a ready-made clock showing .beats
+* The [Modern Clock](https://www.reddit.com/r/kde/comments/ugjcxo/new_clock_widget_for_kde_modern_clock/) widget seems popular, and it looks very promising to modify the source code:
+  * [adding "UTC" time in addition to "Local" should be possible](https://github.com/Prayag2/kde_modernclock/blob/5c86f0f23d2646be7e9872fc5e769bdce259af92/package/contents/ui/main.qml#L41)
+  * [then add calculation and display in main.qml here](https://github.com/Prayag2/kde_modernclock/blob/5c86f0f23d2646be7e9872fc5e769bdce259af92/package/contents/ui/main.qml#L58)
+  * TODO add copy-paste version for easy use
 
 
 ## Applications
