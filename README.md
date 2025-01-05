@@ -92,9 +92,15 @@ Physical clocks:
 
 MacOS:
 * [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime) and [dotbeat developer repository](https://github.com/amiantos/dotbeat)
+* [Dashboard widget](http://www.macupdate.com/info.php/id/17883/ibeattime-widget) from macupdate
+* [little menu extension which displays a constant readout](http://osx.iusethis.com/app/internettime)
+* can also use the Yahoo Widgets (available for Windows and and MacOS), see links below in Windows list
 
 Windows:
 * [Beat-Time](https://github.com/optoisolated/Beat-Time)
+* [using Yahoo Widgets](http://widgets.yahoo.com/download/) - there are multiple widgets available: [[1](http://widgets.yahoo.com/widgets/swatch-internet-time)] [[2](http://widgets.yahoo.com/widgets/internet-time)] [[3](http://widgets.yahoo.com/widgets/swatch-beats)] [[4](http://widgets.yahoo.com/widgets/beats)] [[5](http://widgets.yahoo.com/widgets/beat-clock)]
+* [TheBeat](http://www.softpedia.com/get/Desktop-Enhancements/Clocks-Time-Management/TheBeat.shtml) - for any systray
+* Beware with dual-booting with other OSes that Windows sets the hardware clock in your computer to local time, so if you have it set to UTC in other OS, this will get overwritten and/or produce false time display.
 
 Linux GNOME:
 * [clock Override](https://extensions.gnome.org/extension/1206/clock-override/)
@@ -150,6 +156,8 @@ Linux GNOME:
     dbus-run-session -- gnome-shell --nested --wayland
     ```
   * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were).
+* [internet-time-applet by themactep](https://github.com/themactep/internet-time-applet-gnome) - from 2013, probably only for older GNOME as newer GNOME uses Javascript for its applets.
+* [mod for native clock-applet](http://atylmo.wordpress.com/2009/02/10/howto-get-unix-and-internet-time-to-display-on-gnomes-clock-again/) from 2009 probably also only for older GNOME
 
 Linux KDE:
 * Suggestion to use *conky* desktop widgets ([link](https://www.answeroverflow.com/m/1311596991620317195)) but not sure if there is a ready-made clock showing .beats
@@ -217,6 +225,7 @@ JavaScript:
 * [beats by azappa](https://github.com/azappa/beats)
 * [by waffle on Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119288)
 * [by Punp on Agora Road (see Discussion section](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120221)
+* [by the mactep](http://themactep.com/beats/js)
 
 TypeScript and React:
 * [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
@@ -294,7 +303,8 @@ Interval of calculation:
 * [Fifth World wiki](https://fifthworld.fandom.com/wiki/Swatch_Internet_Time) - [what is a Fifth World country](https://fifthworld.fandom.com/)
 * [on TimeAndDate](https://www.timeanddate.com/time/internettime.html)
 * [by Sandra](https://portal.mozz.us/gemini/idiomdrottning.org/beat-time) - original at gemini://idiomdrottning.org/beat-time
-* [Agora Road Forum](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950) - with some implementations and links to various implementations (last update into this list on 2025-01-05)
+* [Agora Road Forum](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950) - with some implementations and links to various implementations (last update into this list on 2025-01-05, Captain API and ShrapnetNet API links were broken)
+* [Hackerspaces.org Wiki](https://wiki.hackerspaces.org/Swatch_Internet_Time) (last update into this list on 2025-01-05)
 
 Advantage:
 * Worldwide synchronized clocks.
