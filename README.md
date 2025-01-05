@@ -9,7 +9,7 @@ Contributions like pull requests and discussion are welcome :-)
 * [Official, Basic Info](#official-basic-info)
 * [Web Clocks and Converters](#web-clocks-and-converters)
 * [Community](#community)
-* [Physical Clocks and Watches](#physical-clocks-and-watches]
+* [Physical Clocks and Watches](#physical-clocks-and-watches)
 * [Smart Watches](#smart-watches)
 * [Mobile](#mobile)
 * [Operating Systems](#operating-systems)
