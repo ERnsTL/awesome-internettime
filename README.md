@@ -25,7 +25,7 @@ Contributions like pull requests, issues and discussion are welcome :-)
 
 * [Swatch Internet Time webpage](https://www.swatch.com/de-at/internet-time.html) - it has a [funny video](https://www.youtube.com/watch?v=4ROTh6gZz3Y) about an important gotcha with Internet Time: Because it is the same time everywhere does not mean that they are in the same place of their day/night cycle.
 * [Wikipedia](https://en.wikipedia.org/wiki/Swatch_Internet_Time)
-* It seems that Charly Alberti invented the idea as iTime, sent it to Swatch as a business proposal and they made Beat out of it a month later. ([Newspaper article](https://hackaday.io/project/193777-the-curious-case-of-swatch-internet-time), [Charly Alberti commenting on it in comments section](https://hackaday.com/2023/11/27/swatch-internet-time-watch-doesnt-miss-a-beat/), [Miami New Times article](https://www.miaminewtimes.com/music/silicon-bitchin-6356576)). The website for it was www.i-time.com
+* It seems that Charly Alberti invented the idea as iTime, sent it to Swatch as a business proposal and they made Beat out of it a month later. ([Newspaper article](https://hackaday.io/project/193777-the-curious-case-of-swatch-internet-time), [Charly Alberti commenting on it in comments section](https://hackaday.com/2023/11/27/swatch-internet-time-watch-doesnt-miss-a-beat/), [Miami New Times article](https://www.miaminewtimes.com/music/silicon-bitchin-6356576)). The website for it was [www.i-time.com](https://web.archive.org/web/20001109155300/http://www.i-time.com:80/)
 
 
 ## Web Clocks and Converters
