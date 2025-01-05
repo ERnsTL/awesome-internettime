@@ -2,7 +2,7 @@
 
 A curated list of awesome Swatch Internet Time libraries, software and resources.
 
-Contributions like pull requests and discussion are welcome :-)
+Contributions like pull requests, issues and discussion are welcome :-)
 
 ## Contents
 
