@@ -268,6 +268,9 @@ Emacs Elisp:
 GoDotScript:
 * [by HammerKoopa from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-130969)
 
+Tcl:
+* [beat.tcl](https://wiki.tcl-lang.org/page/Swatch+Internet+Time) is a Tcl module, command-line utility, and GUI clock
+
 
 ## Method of Calculation
 
