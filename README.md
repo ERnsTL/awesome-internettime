@@ -254,6 +254,7 @@ Typescript:
 
 Java:
 * [Swatch-Internet-Time](https://github.com/AlexanderJonsson/Swatch-Internet-Time)
+* [inet-time](https://github.com/wrprice/inet-time) - compatible with `java.time` API
 
 Kotlin and Android:
 * [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
