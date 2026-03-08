@@ -103,6 +103,7 @@ Windows:
 * Beware with dual-booting with other OSes that Windows sets the hardware clock in your computer to local time, so if you have it set to UTC in other OS, this will get overwritten and/or produce false time display.
 
 Linux GNOME:
+* Note: If you don't see the OFF-ON switch to install the following extensions, see [this selution](https://www.reddit.com/r/archlinux/comments/10kwm6h/no_such_native_application_orggnomechrome_gnome/).
 * [clock Override](https://extensions.gnome.org/extension/1206/clock-override/)
   * would be best solution since it can do @ time already
   * but it is necessary to fix it for Gnome v40+, author is not happy with performance on v40+ but it is possible
@@ -112,38 +113,51 @@ Linux GNOME:
     ```
     editor ~/.local/share/gnome-shell/extensions/date-menu-formatter@marcinjakubowski.github.com/extension.js
     ```
-  * Add import and timezone at top (note that date-menu-formatter uses an other date system for the other date formats, todo):
+  * Add import at top:
     ```
     const GLib = imports.gi.GLib;
+    ```
+    NOTE: Starting at least GNOME 46.0, there is already an import for GLib at the beginning, then you can leave out the "const GLib" import.
+  * Right below the GLib import, add the BMT timezone:
+    ```
     let bmttz = GLib.TimeZone.new('+01');
     ```
-  * Add beat time display in ```update()```:
+  * Append beat time display in ```update()```:
     ```
     setText(Utils.convertFromPattern(this._formatter.format(PATTERN, new Date())) + "  @" + this.formatBeatTime());
     ```
-    If you want to add UTC display as well:
+  * If you want to add UTC display as well:
     ```
     var now = new Date();
     var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
     setText(
-        Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
+        this._formatter.format(PATTERN, now) + 
         "  @" + this.formatBeatTime() + 
-        "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc))
+        "  Z" + this._formatter.format('kk:mm', utc)
     );
     ```
-    If you want the ISO 8601 calendar week as well:
+  * If you want the ISO 8601 calendar week as well:
     ```
     var now = new Date();
     var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
     setText(
-        Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
+        this._formatter.format(PATTERN, now) + 
         "  @" + this.formatBeatTime() + 
-        "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc)) + 
+        "  Z" + this._formatter.format('kk:mm', utc) + 
         "  W" + now.getWeekNumber()
     );
     ```
-    ...and add function for ISO8601 calendar week at the top from [the source](https://stackoverflow.com/questions/6117814/get-week-of-year-in-javascript-like-in-php)
-  * Add function below:
+    ...and add function for ISO8601 calendar week from [the source](https://stackoverflow.com/questions/6117814/get-week-of-year-in-javascript-like-in-php) at the top in the imports section:
+    ```
+    Date.prototype.getWeekNumber = function(){
+      var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
+      var dayNum = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+      return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
+    };
+    ```
+  * In any case, add the beat time function below the ```update()``` function:
     ```
     formatBeatTime() {
         var bmtnow = GLib.DateTime.new_now(bmttz);
@@ -155,7 +169,8 @@ Linux GNOME:
     ```
     dbus-run-session -- gnome-shell --nested --wayland
     ```
-  * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were).
+    If it does not work, check the standard output, it should show "DateMenuFormatter: error-message-here". You can search for Extensions in the nested GNOME, then it should show an "X" beside the date-formatter extension and show the exact error message. Please file an issue here on this repository in that case.
+  * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were). For Wayland, you have to logout and login again.
 * [internet-time-applet by themactep](https://github.com/themactep/internet-time-applet-gnome) - from 2013, probably only for older GNOME as newer GNOME uses Javascript for its applets.
 * [mod for native clock-applet](http://atylmo.wordpress.com/2009/02/10/howto-get-unix-and-internet-time-to-display-on-gnomes-clock-again/) from 2009 probably also only for older GNOME
 
@@ -268,6 +283,9 @@ Emacs Elisp:
 GoDotScript:
 * [by HammerKoopa from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-130969)
 
+Tcl:
+* [beat.tcl](https://wiki.tcl-lang.org/page/Swatch+Internet+Time) is a Tcl module, command-line utility, and GUI clock
+
 
 ## Method of Calculation
 
@@ -338,5 +356,5 @@ Limitations:
 * [New Earth Time](https://newearthtime.net/) - Based on 360 degrees per day. So un-decimal.
 * Using UTC as basis for Internet Time instead of UTC+1 ("BMT").
 * UTC iself.
-* [beatTAI](https://github.com/B4UDW3RK5/beatTAI) - instead of UTC+1 ("BMT"), uses [International Atomic Time (TAI)](https://en.wikipedia.org/wiki/International_Atomic_Time) which is UTC but monotonic, meaning without any added leap seconds. Format is ":xxx.xx" so just ":" instead of "@", which should combine nicely with ISO 8601 date format like so, "YYYY-MM-DD:xxx.xx". Has implementations in some programming languages and method of calculation for easy reference. Even though the TAI atomic time is the basis of UTC and available at the level of NTP, it is not as easily available in programming languages, compared to UTC.
+* [beatTAI](https://github.com/dbohdan/beatTAI) (fork of the deleted original) - instead of UTC+1 ("BMT"), uses [International Atomic Time (TAI)](https://en.wikipedia.org/wiki/International_Atomic_Time) which is UTC but monotonic, meaning without any added leap seconds. Format is ":xxx.xx" so just ":" instead of "@", which should combine nicely with ISO 8601 date format like so, "YYYY-MM-DD:xxx.xx". Has implementations in some programming languages and method of calculation for easy reference. Even though the TAI atomic time is the basis of UTC and available at the level of NTP, it is not as easily available in programming languages, compared to UTC.
 * [Decimal Unix time](https://characteristicvelocity.github.io/) - Unix time, but with 100 000 seconds per day.
