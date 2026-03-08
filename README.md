@@ -346,7 +346,7 @@ Limitations:
 * [ZDnet from 2000](https://www.zdnet.com/article/do-you-have-the-internet-time/) - Also with sales data (2M devices in first 2 years, time converter downloaded over 5 million times in first 2 years).
 * [How stuff works](https://electronics.howstuffworks.com/gadgets/clocks-watches/internet-time.htm)
 * [Baltimore Sun article from 1999](http://articles.baltimoresun.com/1999-04-08/news/9904080326_1_swatch-internet-time-keeping-time)
-* [Vice 2015](https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet)
+* [Vice 2015](https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet) ([via Internet Archive](https://web.archive.org/web/20201102005806/https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet))
 * [academic dict](https://en-academic.com/dic.nsf/enwiki/210738)
 * [CNN 1999](http://edition.cnn.com/TECH/computing/9902/26/t_t/internet.time/)
 
