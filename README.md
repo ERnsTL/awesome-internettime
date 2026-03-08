@@ -333,6 +333,7 @@ Disadvantage:
   * they don't have to accept the meeting invitation for that time. OTOH, avoid meetings anyway.
   * There is often times an online status function in internet communications platforms and telephone systems these days have a DND function when not available for calls.
 * There is UTC.
+* ["So You Want To Abolish Time Zones"](https://qntm.org/abolish) (2015). Not directly about Swatch Internet Time, but relevant criticism.
 
 Limitations:
 * The Earth will always go around the sun. Meaning, it will never be physically day or night everywhere at the sime time. There will always be two choices: 
