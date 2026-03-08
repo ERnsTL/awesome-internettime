@@ -230,16 +230,6 @@ Project listings:
 * [GitHub topic internet-time](https://github.com/topics/internet-time)
 * Gitlab and Sourcehut provided 0 results as of 2024-01
 
-Rust:
-* [on GitHub](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
-* [beats crate](https://crates.io/crates/beats)
-* [gil_beats by Gil Desmarais](https://github.com/gildesmarais/gil_beats)
-  * algorithm is unefficient
-* [daph/beats](https://github.com/daph/beats)
-
-Go:
-* [beats by Peter Hellberg](https://github.com/peterhellberg/beats)
-
 C:
 * [beats by j0hax](https://github.com/j0hax/beats) - Also with links to other C implementations.
 * [by llillilll from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/page-7#post-120240) - usable for status bar
@@ -247,47 +237,30 @@ C:
 * [by ColdFusion8100 resp. Captain from Agora Road (see Discussion section)](https://github.com/ColdFusion8100/.Beat)
 * TODO coreutils formatter %@ ? date tool? glibc? -- [date(1) uses ```fprintftime()```](http://www.maizure.org/projects/decoded-gnu-coreutils/date.html) and this again uses ```strftime()``` from glibc.
 
-Shell script:
-* The script is so trivial, I show it here directly:
-```sh
- $ printf "@$(( ( ( ( $(date "+%s") + 3600 ) % 86400 ) * 10 ) / 864 ))\n"
-```
-* [by Andy Kaufman from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120635)
-
-JavaScript:
-* [beats by azappa](https://github.com/azappa/beats)
-* [by waffle on Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119288)
-* [by Punp on Agora Road (see Discussion section](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120221)
-* [by the mactep](http://themactep.com/beats/js)
-
-TypeScript and React:
-* [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
-* [React module](https://github.com/sgwilym/use-internet-time)
-* [internet-time by JaviToro](https://github.com/JaviToro/internet-time)
-
-Python:
-* [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
-* [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
-* [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
-* [toys by 153](https://github.com/153/toys)
-* [by Fauxx from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120657)
-
-PHP:
-* [in standard library](https://www.php.net/manual/en/function.date.php) - using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
-
 C#:
 * [on Stack Overflow](https://stackoverflow.com/questions/10479991/convert-datetime-to-swatch-internet-time-beat-time)
 
 Elixir:
 * [beat_time by ZuraGuerra](https://github.com/ZuraGuerra/beat_time)
 
-Typescript:
-* [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
-* [use-beat-time](https://github.com/sgwilym/use-internet-time) - For React apps.
+Emacs Elisp:
+* [by Ashman from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119581)
+
+Go:
+* [beats by Peter Hellberg](https://github.com/peterhellberg/beats)
+
+GoDotScript:
+* [by HammerKoopa from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-130969)
 
 Java:
 * [Swatch-Internet-Time](https://github.com/AlexanderJonsson/Swatch-Internet-Time)
 * [inet-time](https://github.com/wrprice/inet-time) - compatible with `java.time` API
+
+JavaScript:
+* [beats by azappa](https://github.com/azappa/beats)
+* [by waffle on Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119288)
+* [by Punp on Agora Road (see Discussion section](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120221)
+* [by the mactep](http://themactep.com/beats/js)
 
 Kotlin and Android:
 * [beat time library for Android](https://github.com/raheemadamboev/server-time-android)
@@ -296,14 +269,37 @@ Perl:
 * [DateTime::Complete](https://metacpan.org/pod/Bundle::DateTime::Complete) - With module *IBeat*.
 * [DateTime::Format::Builder::Parsers::Quick](https://metacpan.org/pod/DateTime::Format::Builder::Parser::Quick) - For parsing.
 
-Emacs Elisp:
-* [by Ashman from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-119581)
+PHP:
+* [in standard library](https://www.php.net/manual/en/function.date.php) - using the [DateTime format "B"](https://www.php.net/manual/en/datetime.format.php)
 
-GoDotScript:
-* [by HammerKoopa from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-130969)
+Python:
+* [code snippet](https://github.com/153/toys/blob/master/beat-time.py)
+* [SwatchTime by Henry Malinowski](https://github.com/henry-malinowski/SwatchTime)
+* [AmigaOS 1.x Workbench clock in PyGame](https://github.com/mdoege/AmigaClock)
+* [toys by 153](https://github.com/153/toys)
+* [by Fauxx from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120657)
+
+Rust:
+* [on GitHub](https://github.com/search?l=Rust&q=internet+time+beat&type=Repositories)
+* [beats crate](https://crates.io/crates/beats)
+* [gil_beats by Gil Desmarais](https://github.com/gildesmarais/gil_beats)
+  * algorithm is unefficient
+* [daph/beats](https://github.com/daph/beats)
+
+Shell script:
+* The script is so trivial, I show it here directly:
+```sh
+ $ printf "@$(( ( ( ( $(date "+%s") + 3600 ) % 86400 ) * 10 ) / 864 ))\n"
+```
+* [by Andy Kaufman from Agora Road (see Discussion section)](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950/post-120635)
 
 Tcl:
 * [beat.tcl](https://wiki.tcl-lang.org/page/Swatch+Internet+Time) is a Tcl module, command-line utility, and GUI clock
+
+TypeScript and React:
+* [dot-beat-time](https://github.com/sgwilym/dot-beat-time)
+* [use-beat-time](https://github.com/sgwilym/use-internet-time) - For React apps.
+* [internet-time by JaviToro](https://github.com/JaviToro/internet-time)
 
 
 ## Method of Calculation
