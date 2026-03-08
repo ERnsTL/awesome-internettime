@@ -112,38 +112,51 @@ Linux GNOME:
     ```
     editor ~/.local/share/gnome-shell/extensions/date-menu-formatter@marcinjakubowski.github.com/extension.js
     ```
-  * Add import and timezone at top (note that date-menu-formatter uses an other date system for the other date formats, todo):
+  * Add import at top:
     ```
     const GLib = imports.gi.GLib;
+    ```
+    NOTE: Starting at least GNOME 46.0, there is already an import for GLib at the beginning, then you can leave out the "const GLib" import.
+  * Right below the GLib import, add the BMT timezone:
+    ```
     let bmttz = GLib.TimeZone.new('+01');
     ```
-  * Add beat time display in ```update()```:
+  * Append beat time display in ```update()```:
     ```
     setText(Utils.convertFromPattern(this._formatter.format(PATTERN, new Date())) + "  @" + this.formatBeatTime());
     ```
-    If you want to add UTC display as well:
+  * If you want to add UTC display as well:
     ```
     var now = new Date();
     var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
     setText(
-        Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
+        this._formatter.format(PATTERN, now) + 
         "  @" + this.formatBeatTime() + 
-        "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc))
+        "  Z" + this._formatter.format('kk:mm', utc)
     );
     ```
-    If you want the ISO 8601 calendar week as well:
+  * If you want the ISO 8601 calendar week as well:
     ```
     var now = new Date();
     var utc = new Date(now.getTime() + now.getTimezoneOffset() * 60000);
     setText(
-        Utils.convertFromPattern(this._formatter.format(PATTERN, now)) + 
+        this._formatter.format(PATTERN, now) + 
         "  @" + this.formatBeatTime() + 
-        "  Z" + Utils.convertFromPattern(this._formatter.format('kk:mm', utc)) + 
+        "  Z" + this._formatter.format('kk:mm', utc) + 
         "  W" + now.getWeekNumber()
     );
     ```
-    ...and add function for ISO8601 calendar week at the top from [the source](https://stackoverflow.com/questions/6117814/get-week-of-year-in-javascript-like-in-php)
-  * Add function below:
+    ...and add function for ISO8601 calendar week from [the source](https://stackoverflow.com/questions/6117814/get-week-of-year-in-javascript-like-in-php) at the top in the imports section:
+    ```
+    Date.prototype.getWeekNumber = function(){
+      var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
+      var dayNum = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+      return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
+    };
+    ```
+  * In any case, add the beat time function below the ```update()``` function:
     ```
     formatBeatTime() {
         var bmtnow = GLib.DateTime.new_now(bmttz);
@@ -155,7 +168,8 @@ Linux GNOME:
     ```
     dbus-run-session -- gnome-shell --nested --wayland
     ```
-  * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were).
+    If it does not work, check the standard output, it should show "DateMenuFormatter: error-message-here". You can search for Extensions in the nested GNOME, then it should show an "X" beside the date-formatter extension and show the exact error message. Please file an issue here on this repository in that case.
+  * Restart GNOME shell by pressing Alt+F2 and enter "r" for restart (all windows remain open as they were). For Wayland, you have to logout and login again.
 * [internet-time-applet by themactep](https://github.com/themactep/internet-time-applet-gnome) - from 2013, probably only for older GNOME as newer GNOME uses Javascript for its applets.
 * [mod for native clock-applet](http://atylmo.wordpress.com/2009/02/10/howto-get-unix-and-internet-time-to-display-on-gnomes-clock-again/) from 2009 probably also only for older GNOME
 
