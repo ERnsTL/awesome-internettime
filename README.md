@@ -103,6 +103,7 @@ Windows:
 * Beware with dual-booting with other OSes that Windows sets the hardware clock in your computer to local time, so if you have it set to UTC in other OS, this will get overwritten and/or produce false time display.
 
 Linux GNOME:
+* Note: If you don't see the OFF-ON switch to install the following extensions, see [this selution](https://www.reddit.com/r/archlinux/comments/10kwm6h/no_such_native_application_orggnomechrome_gnome/).
 * [clock Override](https://extensions.gnome.org/extension/1206/clock-override/)
   * would be best solution since it can do @ time already
   * but it is necessary to fix it for Gnome v40+, author is not happy with performance on v40+ but it is possible
