@@ -71,10 +71,16 @@ Physical clocks:
 
 ## Smart Watches
 
-* Apple Watch:  [internet-beat by Jessica Stokes](https://apps.apple.com/us/app/internet-beat/id304080578)
-  * https://at-watch.jessicastokes.net/ -> https://apps.apple.com/app/at-watch/id1440309007
-* Android und Galaxy Watch: [by derfreimann](https://apkgk.com/com.derfreimann.watchfaces.internetTime)
-    * with estimated total number of installs
+Apple Watch:
+  * [internet-beat by Jessica Stokes](https://apps.apple.com/us/app/internet-beat/id304080578)
+  * [by Jessica Stokes](https://at-watch.jessicastokes.net/) - links to [another app on Apple Appstore](https://apps.apple.com/app/at-watch/id1440309007)
+  * [by mulot](https://github.com/mulot/BeatTime)
+  * [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
+
+Android und Galaxy Watch:
+  * [by derfreimann](https://apkgk.com/com.derfreimann.watchfaces.internetTime), with estimated total number of installs
+
+Others:
 * [GitHub search for watch face internet time beats](https://github.com/search?q=watch+face+internet+time+beats)
 * Pebble watch:  [watch faces on GitHub](https://github.com/search?q=pebble+internet+time+beats)
   * getpebble.com redirects to fitbit.com, so it seems Pebble has been bought by Fitbit
@@ -83,15 +89,26 @@ Physical clocks:
 
 ## Mobile
 
-* Android:  [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget) as a handy widget for the home screen ([alternative source from APKpure](https://apkpure.com/beat-time-widget/xyz.cbateman.beattimewidget))
-* Android:  [by mirk0dex](https://f-droid.org/packages/eu.mirkodi.swatchbeatclock/) as a regular app it seems
-* iPhone:  [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
-* iOS and Apple Watch:  [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
+Android:
+* [by cbateman](https://play.google.com/store/apps/details?id=xyz.cbateman.beattimewidget) as a handy widget for the home screen ([alternative source from APKpure](https://apkpure.com/beat-time-widget/xyz.cbateman.beattimewidget))
+* [by mirk0dex](https://f-droid.org/packages/eu.mirkodi.swatchbeatclock/) as a regular app it seems
+
+iOS (iPad and iPhone):
+* [beat-internet-time](https://apps.apple.com/at/app/beat-internet-time/id1570173118)
+* [by mulot](https://github.com/mulot/BeatTime)
+* [NetTime by Simon Rice](https://github.com/SimonRice/NetTime)
+
+
+## Television
+
+Apple TV:
+* [by mulot](https://github.com/mulot/BeatTime)
 
 
 ## Operating Systems
 
 MacOS:
+* [by Mulot](https://github.com/mulot/BeatTime)
 * [dotbeat](https://swiftobc.com/repo/amiantos-dotbeat-swift-datetime) and [dotbeat developer repository](https://github.com/amiantos/dotbeat)
 * [Dashboard widget](http://www.macupdate.com/info.php/id/17883/ibeattime-widget) from macupdate
 * [little menu extension which displays a constant readout](http://osx.iusethis.com/app/internettime)
