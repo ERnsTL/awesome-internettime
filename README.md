@@ -324,6 +324,7 @@ Interval of calculation:
 * [by Sandra](https://portal.mozz.us/gemini/idiomdrottning.org/beat-time) - original at gemini://idiomdrottning.org/beat-time
 * [Agora Road Forum](https://forum.agoraroad.com/index.php?threads/motion-for-agora-road-to-adopt-internet-beat-time.6950) - with some implementations and links to various implementations (last update into this list on 2025-01-05, Captain API and ShrapnetNet API links were broken)
 * [Hackerspaces.org Wiki](https://wiki.hackerspaces.org/Swatch_Internet_Time) (last update into this list on 2025-01-05)
+* ["The Rise and Fall of Internet Time"](https://web.archive.org/web/20060210112353/http://www.thedeplorableword.net:80/archive/2005/08/30/the-rise-and-fall-of-internet-time/) (2005)
 
 Advantage:
 * Worldwide synchronized clocks.
@@ -346,7 +347,7 @@ Limitations:
 * [ZDnet from 2000](https://www.zdnet.com/article/do-you-have-the-internet-time/) - Also with sales data (2M devices in first 2 years, time converter downloaded over 5 million times in first 2 years).
 * [How stuff works](https://electronics.howstuffworks.com/gadgets/clocks-watches/internet-time.htm)
 * [Baltimore Sun article from 1999](http://articles.baltimoresun.com/1999-04-08/news/9904080326_1_swatch-internet-time-keeping-time)
-* [Vice 2017](https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet) ([via Internet Archive](https://web.archive.org/web/20201102005806/https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet))
+* [Vice 2017](https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet) ([via Web Archive](https://web.archive.org/web/20201102005806/https://www.vice.com/en/article/gyy4bm/remember-when-swatch-invented-a-new-time-system-for-the-internet))
 * [academic dict](https://en-academic.com/dic.nsf/enwiki/210738)
 * [CNN 1999](http://edition.cnn.com/TECH/computing/9902/26/t_t/internet.time/)
 
