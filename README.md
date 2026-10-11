@@ -67,6 +67,7 @@ The Original Swatch Net Time Watches:
 Physical clocks:
 
 * [Round self-made clock by Roni Bandini, reported on Hackaday, with comments from Charly Alberti](https://hackaday.com/2023/11/27/swatch-internet-time-watch-doesnt-miss-a-beat/) ([source code](https://github.com/ronibandini/XiaoRoundInternetHour), [project details, with newspaper article about Charly Alberti's iTime](https://hackaday.io/project/193777-the-curious-case-of-swatch-internet-time))
+* [Mini desk clock](https://gorkem.cc/projects/InternetTimeClock/) by [Gorkyver](https://gorkem.cc)
 
 
 ## Smart Watches
